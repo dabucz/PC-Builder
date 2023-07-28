@@ -74,7 +74,7 @@ function PCEditor() {
     []);
 
     function fetchData() {
-        fetch("http://dabu.cz:8801/api/getComponents")
+        fetch("https://api.dabu.cz/api/getComponents")
           .then((response) => {
             if (!response.ok) {
               throw new Error('Network response was not ok.');

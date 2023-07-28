@@ -1,7 +1,6 @@
 import { CardDescriptionProps } from "../Utils/Props"
 
 function CardDescription({info, type, data, selectedData}: CardDescriptionProps) {
-    console.log(data.cpu[selectedData.selectedCpu].socket,info.socket);
     return (
         <>
         {type.startsWith('cpu') || type.startsWith("gpu") && (
