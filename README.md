@@ -1,7 +1,7 @@
 # Configuration
 rename the .env.example to .env in the folder backend and fill the variables
 
-change the api url in src/Pages/PCEditor.tsx in function fetchData
+change the api url in src/Pages/PCEditor.tsx in function fetchData on line 77
 
 ## run the backend
 using go run . in the directory backend
@@ -17,4 +17,4 @@ Build:
 npm run build
 ```
 
-it needs a recode
+It needs a recode
